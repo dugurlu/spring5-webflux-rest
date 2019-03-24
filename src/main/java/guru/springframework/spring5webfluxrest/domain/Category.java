@@ -10,6 +10,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 @Document
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class Category {
 
     @Id
